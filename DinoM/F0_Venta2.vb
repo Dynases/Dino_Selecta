@@ -1204,9 +1204,6 @@ Public Class F0_Venta2
                 grdetalle.Row = grdetalle.RowCount - 1
             End If
         End If
-        grdetalle.Refetch()
-        grdetalle.Refresh()
-
     End Sub
     Public Function _ValidarCampos() As Boolean
         Try
